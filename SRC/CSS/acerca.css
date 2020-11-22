@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+li {
+    list-style: none;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+}
+
+main{
+    height: auto;
+    margin: 10px 20px;
+}
+.logo{
+    padding: 10px;
+    transition: 0.5s;
+
+}
+.logo:hover{
+  transform: scale(1.05);
+
+}
+.creditos{
+    text-align: center;
+    padding: 50px;
+}
+
+.fondojuego{
+    background-image: url(./fondojuego.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo{
+    font-size: 4vw;
+    font-weight: 600;
+    color: white;
+    transition: 0.5s;
+    
+}
+.titulo:hover{
+    transform: scale(1.05);
+}
+
+.parrafo1{
+    font-weight: 400;
+}
+.img1{
+    transition: 0.5s;
+
+}
+.img1:hover{
+  transform: scale(1.05);
+
+}
+.img2{
+    transition: 0.5s;
+
+}
+.img2:hover{
+  transform: scale(1.05);
+
+}
+.img3{
+    transition: 0.5s;
+
+}
+.img3:hover{
+  transform: scale(1.05);
+
+}
+

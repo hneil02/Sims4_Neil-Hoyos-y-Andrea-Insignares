@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+li {
+    list-style: none;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    height: auto;
+}
+
+.logo{
+    padding: 10px;
+    transition: 0.5s;
+
+}
+.logo:hover{
+  transform: scale(1.05);
+
+}
+.creditos{
+    text-align: center;
+    padding: 50px;
+}
+
+.fondocomunidad{
+    background-image: url(./fondocomunidad.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo{
+    font-size: 4vw;
+    font-weight: 700;
+    color: white;
+    transition: 0.5s;
+
+}
+.titulo:hover{
+    transform: scale(1.05);
+
+}

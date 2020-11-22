@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+li {
+    list-style: none;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo{
+    padding: 10px;
+    transition: 0.5s;
+
+}
+.logo:hover{
+  transform: scale(1.05);
+
+}
+main{
+    height: auto;
+}
+
+.creditos{
+    text-align: center;
+    padding: 50px;
+}
+
+.google_maps{
+    margin: 30px;
+}
+.contac{
+    padding: none;
+}
+.titulo{
+    font-size: 4vw;
+    font-weight: 700;
+    color: white;
+    transition: 0.5s;
+    margin: auto;
+    padding: 36px 20px ;
+
+}
+.titulo:hover{
+    transform: scale(1.05);
+
+}
+.google-maps {
+    padding-bottom: 20%;
+}
+.google-maps iframe {
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+.texto{
+    margin: 40px 0px ;
+}
